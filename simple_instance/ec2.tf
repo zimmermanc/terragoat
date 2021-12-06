@@ -3,7 +3,7 @@ provider "aws" {
 }
 
 resource "aws_security_group" "ssh_traffic" {
-  name        = "ssh_traffic"
+  name        = "ssh_traffic_test"
   description = "Allow SSH inbound traffic"
   ingress {
     description = "SSH"
